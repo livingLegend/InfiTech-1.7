@@ -5,3 +5,6 @@ config/MapWriterBlockColours.txt
 config/UniqueNames.txt
 config/CustomStuff/cslog.txt
 config/YAMPST.nbt
+config/INpureProjects/logs
+/config/*.bak
+/config/CraftGuide/CraftGuide.log
