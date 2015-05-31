@@ -25,7 +25,7 @@ var wireNaq8x = <gregtech:gt.blockmachines:1703>;
 var casingMachineLuV = <gregtech:gt.blockcasings:6>;
 var circuitMaster = <ore:circuitMaster>;
 var capacitorDL = <EnderIO:itemBasicCapacitor:1>;
-var capacitorBank = <EnderIO:blockCapacitorBank>;
+var capacitorBankBasic = <EnderIO:blockCapBank:1>;
 var resonatorEnder = <EnderIO:itemFrankenSkull:3>;
 var ingotSoularium = <ore:ingotSoularium>;
 var ingotDarkSteel = <ore:ingotDarkSteel>;
@@ -91,10 +91,10 @@ recipes.addShaped(capacitorLarge, [
     [plateChrome, plateChrome, plateChrome],
     [ingotRubber, ingotRubber, ingotRubber],
     [plateChrome, plateChrome, plateChrome]]);
-recipes.remove(blockNaqAlloy);
-Compressor.addRecipe(blockNaqAlloy, ingotNaqAlloySG * 9);
-Compressor.addRecipe(blockNaqAlloy, ingotNaqAlloyGT * 9);
-recipes.addShapeless(ingotNaqAlloyGT * 9, [blockNaqAlloy]);
+//recipes.remove(blockNaqAlloy);
+//Compressor.addRecipe(blockNaqAlloy, ingotNaqAlloySG * 9);
+//Compressor.addRecipe(blockNaqAlloy, ingotNaqAlloyGT * 9);
+//recipes.addShapeless(ingotNaqAlloyGT * 9, [blockNaqAlloy]);
 recipes.remove(stargatePowerIC2);
 recipes.addShaped(stargatePowerIC2, [
     [capacitorLarge, wireOsmium8x, capacitorLarge],
@@ -104,7 +104,7 @@ NEI.overrideName(stargatePowerIC2, "EU Stargate Power Unit");
 recipes.remove(stargatePowerRF);
 recipes.addShaped(stargatePowerRF, [
     [capacitorDL, capacitorDL, capacitorDL],
-    [capacitorBank, resonatorEnder,capacitorBank],
+    [capacitorBankBasic, resonatorEnder,capacitorBankBasic],
     [ingotSoularium, ingotDarkSteel, ingotSoularium]]);
 recipes.remove(irisBlade);
 recipes.remove(irisUpgrade);
