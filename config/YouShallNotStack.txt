@@ -2,3 +2,4 @@
 #The itemName should be the name NEI gives you, the stacksize is the maximum stacksize
 #Only define one entry line, meta is optional. Example: minecraft:iron_ingot,10
 ExtraUtilities:drum,1
+ThaumicTinkerer:brightNitor,3
