@@ -106,7 +106,6 @@ dumps/*
 config/BlockProperties.defaults/*
 
 # Non essential/custom mods
-mods/FullscreenWindowed*.*
-mods/OptiFine*.*
-mods/VersionChecker*.*
-mods/clearchat*.*
+mods/FullscreenWindowed*.jar
+mods/VersionChecker*.jar
+mods/clearchat*.jar
