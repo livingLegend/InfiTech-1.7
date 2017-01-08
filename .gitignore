@@ -102,8 +102,6 @@ TCNodeTracker/*
 mods/carpentersblocks/*
 mods/ic2/*
 servers.dat
-mods/MobiusCore*.jar
-mods/Opis*.jar
 dumps/*
 config/BlockProperties.defaults/*
 
